@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parcial</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div style="width: 400px; margin: auto">
+      <div class="lineaHorizontal"></div>
+      <div class="text" style="color: #8a7352">Devcox Presents</div>
+      <div class="lineaHorizontal"></div>
+      <br />
+    </div>
+    <div style="display: flex; color: #8a7352; justify-content: center">
+      <h1>20</h1>
+      <h3>
+        YEARS OF JAVA <br />
+        Just the Beginning
+      </h3>
+    </div>
+    <div id="gridContainer">
+      <div class="page1">
+        <h3>Grid Layout</h3>
+        <p>
+          If I create the first column as 600 pixeles and then have two 1fr
+          columns 600 pixel track is removed from the available space and the
+          remainder is distributed equally between the two columns
+        </p>
+      </div>
+      <div class="page2">
+        <code>
+          <pre>
+            .wrapper {
+              display: grid;
+              grid-template-columns: 600px 1fr 1fr;
+              }
+          </pre>
+        </code>
+      </div>
+      <div class="page3">
+        <img
+          src="resource/images/mujer.jpg"
+          alt="img"
+          width="100%"
+          height="100%"
+        />
+      </div>
+      <div class="page4">
+        <img
+          src="resource/images/linux.jpg"
+          alt="img"
+          width="50%"
+          height="100%"
+        />
+        <img
+          src="resource/images/windows.jpg"
+          alt="img"
+          width="25%"
+          height="80%"
+        />
+        <img
+          src="resource/images/MacOS.jpg"
+          alt="img"
+          width="25%"
+          height="80%"
+        />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+body{
+background-image: url('../resource/images/paisaje.avif');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#gridContainer{
+  display: grid;
+  grid-template-areas:'page1 page2 page3'
+                      'page1 page4 page3';
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 50% 50%;
+  margin: 10px;
+  margin-top: 50px;
+}
+
+.page1{
+  grid-area: page1;
+  background-color: #653e7f;
+  color: white;
+}
+
+.page2{
+  grid-area: page2;
+  background-color: #313131;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.page3{
+  grid-area: page3;
+
+}
+
+.page4{
+  grid-area: page4;
+  background-color: #f1f1f1;
+  display: flex;
+  gap: 2px;
+  padding: 15px;
+}
+
+.lineaHorizontal{
+  margin:0px 20px;
+  width:90px;    
+  border-top:1px solid #999;
+  position: relative;
+  top:10px;
+  float:left;
+  }
+
+.text{
+  font-weight:bold;
+  float:left;
+}
+
+div>h1{
+  font-size: 80px;
+  margin: 0px;
+}
+
+div>h3{
+  font-size: 40px;
+  margin: 0px;
+}
+
